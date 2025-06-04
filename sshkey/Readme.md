@@ -21,3 +21,17 @@ The key's randomart image is:
 |       o..+ .  =.|
 |        o+.  o+ .|
 +----[SHA256]-----+
+
+
+
+
+curl \
+--request POST \
+--url "https://api.github.com/repos/chinmaya-sahu/github-examples/issues" \
+--header "Accept: application/vnd.github+json" \
+--header "X-GitHub-Api-Version: 2022-11-28" \
+--header "Authorization: Bearer token" \
+--data '{
+  "title": "Bug: Button not working",
+  "body": "The submit button does not respond to clicks on the homepage."
+}'
