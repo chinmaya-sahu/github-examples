@@ -35,3 +35,8 @@ curl \
   "title": "Bug: Button not working",
   "body": "The submit button does not respond to clicks on the homepage."
 }'
+
+
+
+
+### API issue reloved
