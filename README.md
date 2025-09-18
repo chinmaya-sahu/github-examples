@@ -12,3 +12,7 @@ $env:GH_VER = '1.0.0'
 echo $env:GH_TOKEN | docker login ghcr.io -u $env:GH_USERNAME --password-stdin 
 # pushes the latest version or any tag version of IMAGE_NAME
 docker push ghcr.io/$env:GH_USERNAME/$env:GH_IMAGE:$env:GH_VER
+
+
+
+#Added a line for issue #5
