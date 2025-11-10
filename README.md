@@ -16,3 +16,6 @@ docker push ghcr.io/$env:GH_USERNAME/$env:GH_IMAGE:$env:GH_VER
 
 
 #Added a line for issue #5
+
+# date 11/10/2025 github action: greeting if first time contribution
+
